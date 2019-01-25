@@ -25,6 +25,12 @@
             android:name=".MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
         </activity>
 
         <meta-data
@@ -33,11 +39,6 @@
 
         <activity android:name=".ChhosePictActivity"></activity>
         <activity android:name=".CapureCameraActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
     </application>

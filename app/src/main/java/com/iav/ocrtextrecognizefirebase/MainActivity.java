@@ -518,7 +518,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mGraphicOverlay.clear();
         switch (position) {
             case 0:
-                mSelectedImage = getBitmapFromAsset(this, "ktmiav.jpg");
+                mSelectedImage = getBitmapFromAsset(this, "ktp.JPG");
                 break;
             case 1:
                 // Whatever you want to happen when the thrid item gets selected
@@ -526,7 +526,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 2:
                 // Whatever you want to happen when the thrid item gets selected
-                mSelectedImage = getBitmapFromAsset(this, "aris.jpeg");
+                mSelectedImage = getBitmapFromAsset(this, "bill.jpg");
                 break;
             case 3:
                 // Whatever you want to happen when the thrid item gets selected
